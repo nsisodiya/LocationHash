@@ -30,7 +30,8 @@
         //URL will become http://example.com/NewPage#dept=Maths
 
 #Demo
-  
+
+ <http://jsbin.com/oxayaf#tab="oue">
 
 #CopyRight and License
 
