@@ -31,7 +31,7 @@
 
 #Demo
 
- <http://jsbin.com/oxayaf#tab="oue">
+ http://jsbin.com/oxayaf
 
 #CopyRight and License
 
