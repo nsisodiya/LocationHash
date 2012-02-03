@@ -3,7 +3,7 @@
 
 (c) 2012, Narendra Sisodiya, narendra@narendrasisodiya.com
 
-Project Hosting - 
+Project Hosting - https://github.com/nsisodiya/LocationHash/
 
 // License - MIT License
 
