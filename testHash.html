@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="locationHash.js"></script>
+		<script type="text/javascript">
+		
+	$(function(){
+		
+		$("#set").click(function(){
+			LocationHash.setParam($("#key").val(), $("#value").val() );
+		});
+		$("#get").click(function(){
+			$("#newvalue").html( "<b>" + LocationHash.getParam($("#newkey").val())  + "</b>"); 
+		});
+		
+		$("#delete").click(function(){
+			LocationHash.deleteParam($("#deletekey").val());
+		});
+	
+	});
+		</script>
+	</head>
+	<body>
+	
+	<h2>Set Param</h2>
+	<label>Key : </label><input id="key" type="text"></input><label>Value : </label><input id="value" type="text"></input>
+	<br/>
+	<input id="set" value="Set Param" type="button"></input>
+	<h2>Get Param</h2>
+	<label>Key : </label><input id="newkey" type="text"></input><label>Value : </label><span id="newvalue"></span>
+	<br/>
+	<input id="get" value="Get Param" type="button"></input>
+	
+	<h2>Delete Param</h2>
+	<label>Key : </label><input id="deletekey" type="text"></input>
+	<br/>
+	<input id="delete" value="Delete Param" type="button"></input>
+	
+	</body>
+</html>
